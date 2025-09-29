@@ -1,0 +1,39 @@
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+  "E",
+  "F",
+  "I",
+  "B",
+  "UP",
+  "N",
+  "C4",
+  "SIM",
+  "TID",
+  "RUF"
+]
+ignore = [
+  "B008",
+  "SIM102",
+  "UP007"
+]
+
+[tool.mypy]
+python_version = "3.9"
+ignore_missing_imports = true
+strict_optional = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = [
+  "tests",
+  "test_ai_parser.py"
+]

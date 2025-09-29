@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env*
+
+# Local data and databases
+data/
+*.db
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/

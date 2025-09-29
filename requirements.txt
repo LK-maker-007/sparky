@@ -1,0 +1,11 @@
+# requirements.txt
+slack_bolt>=1.18.0
+slack_sdk>=3.21.3
+requests>=2.31.0
+python-dotenv>=1.0.0
+pydantic>=1.10.0
+pydantic-settings>=2.4.0
+# Optional: enable Ollama integration for text rewriting
+# ollama (install separately from https://ollama.com/download)
+# For local LLM integration, add:
+# ollama or transformers
